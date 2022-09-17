@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <title>sempai</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+        <div class="limit">
+            <div class="limit__inner" id="extInner">
+                <span class="close" onclick='deleteElement("extInner")'></span>
+                <form action=""><textarea class="notice" name="" id="" cols="30" rows="10" ></textarea></form>    
+            </div>
+            <div class="limit__inner" id="extInner1"><span class="close" onclick='deleteElement("extInner1")'></span><form action=""><textarea class="notice" name="" id="" cols="30" rows="10" ></textarea></form></div>
+            <div class="limit__inner" id="extInner2"><span class="close" onclick='deleteElement("extInner2")'></span><form action=""><textarea class="notice" name="" id="" cols="30" rows="10" ></textarea></form></div>
+        </div>
+        <div class="container">
+            <button class="btn">Change color</button>
+            <button class="scndbtn" type="submit">New Notice</button>
+            <form method="POST" action="">
+               <textarea type="text" class="note" id="nt" cols="30" rows="10" ></textarea>
+            </form>
+            <button class="svbtn" onclick="savePage()">Save</button>
+            <button class="ldbtn" onclick="loadPage()">Load</button> 
+        </div>
+             
+<script src="/my.js"></script>
+</body>
+</html>
